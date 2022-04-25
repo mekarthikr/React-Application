@@ -1,15 +1,10 @@
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import Classcomponent from './components/class_components/classComponents';
 
-//Class based component
-
-export default class App extends React.Component{
-  constructor(props){
-    super(props)
-  }
-  render(){
-    return <div>Hello From Class - App</div>
-  }
+export default function App()
+{
+  const name="karthik"
+  return (<Classcomponent UserName={name} />);
 }
-
