@@ -2,7 +2,9 @@
 import React from 'react';
 import './App.css';
 import Classcomponent from './components/class_components/classComponents';
-import StatesAndLifecycle from './components/StateAndLifecycle/StatesAndLifecycle'
+import StatesAndLifecycle from './components/StateAndLifecycle/StatesAndLifecycle';
+import Handlingevents from './components/HandlingEvents/HandlingEvents'
+import ConditionalRendering from './components/ConditionalRendering/ConditionalRendering';
 
 export default function App()
 {
@@ -10,6 +12,8 @@ export default function App()
   const message="hola"
   return (
     <div><Classcomponent UserName={name} />
-    <StatesAndLifecycle UserName={name} Message={message}/></div>
+    <StatesAndLifecycle UserName={name} Message={message}/>
+    <Handlingevents/>
+    <ConditionalRendering/></div>
     );
 }

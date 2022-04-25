@@ -6,6 +6,7 @@ export default class Classcomponent extends React.Component{
     constructor(props){
       super(props)
       console.log(this.props.UserName)
+      // this.props.UserName="hola"
     }
     render(){
       return (<div>
