@@ -9,7 +9,7 @@ export default class Classcomponent extends React.Component{
     }
     render(){
       return (<div>
-        <h1 className="center">Hello From Class - App</h1>
+        <h1 className="center">Hello From Class - Class Component</h1>
         <FunctionComponent/>
         <h3>Created by {this.props.UserName}</h3>
         </div>)
