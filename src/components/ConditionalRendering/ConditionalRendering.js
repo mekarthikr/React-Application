@@ -35,7 +35,11 @@ export default class ConditionalRendering extends React.Component
         // );
         // return(this.DisplayFunction())
         return(
-            this.state.isLoggedIn?<div>Karthik is Logged In</div>:<div>Karthik is Logged Out</div>
+            <div>
+                <h1>Hello From Class - Conditional Rendering</h1>
+                {this.state.isLoggedIn?<div>Karthik is Logged In</div>:<div>Karthik is Logged Out</div>}
+            </div>
+            
         )
     }
 }
