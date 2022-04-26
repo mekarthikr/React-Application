@@ -12,21 +12,30 @@ export default class ConditionalRendering extends React.Component
     }
     DisplayFunction()
     {
-        if(this.state.isLoggedIn)
-        {
-            return(
-                <div><h3>Karthik is logged in</h3></div>
-            )
-        }
-        else
-        {
-            return(
-                <div><h3>Karthik is Logged out</h3></div>
-            )
-        }
+        // let message
+        // if(this.state.isLoggedIn)
+        // {
+        //     message=<div><h3>Karthik is logged in</h3></div>
+            
+        // }
+        // else
+        // {
+        //     message=<div><h3>Karthik is Logged out</h3></div>
+            
+        // }
+        // return message
     }
     render(){
-        // return (<ConditionalRendering/>);
-        return(this.DisplayFunction())
+        // return (
+        //     <div>
+        //  <ConditionalRendering/>
+        // <ConditionalRendering/>
+        //     </div>
+
+        // );
+        // return(this.DisplayFunction())
+        return(
+            this.state.isLoggedIn?<div>Karthik is Logged In</div>:<div>Karthik is Logged Out</div>
+        )
     }
 }
