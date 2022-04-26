@@ -5,6 +5,8 @@ import Classcomponent from './components/class_components/classComponents';
 import StatesAndLifecycle from './components/StateAndLifecycle/StatesAndLifecycle';
 import Handlingevents from './components/HandlingEvents/HandlingEvents'
 import ConditionalRendering from './components/ConditionalRendering/ConditionalRendering';
+import ListAndKeys from './components/ListAndKeys/ListAndKeys';
+import Forms from './components/Forms/Forms';
 
 export default function App()
 {
@@ -14,6 +16,8 @@ export default function App()
     <div><Classcomponent UserName={name} />
     <StatesAndLifecycle UserName={name} Message={message}/>
     <Handlingevents/>
-    <ConditionalRendering/></div>
+    <ConditionalRendering/>
+    <ListAndKeys/>
+    <Forms/></div>
     );
 }
