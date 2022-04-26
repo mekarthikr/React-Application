@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import Classcomponent from './components/class_components/classComponents';
+import Classcomponent from './components/Components/Components';
 import StatesAndLifecycle from './components/StateAndLifecycle/StatesAndLifecycle';
 import Handlingevents from './components/HandlingEvents/HandlingEvents'
 import ConditionalRendering from './components/ConditionalRendering/ConditionalRendering';
