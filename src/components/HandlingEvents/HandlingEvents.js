@@ -3,9 +3,6 @@ import './HandlingEvents.css'
 
 export default class Handlingevents extends React.Component
 {
-    constructor(){
-        super()
-    }
     
     eventHandler()
     {

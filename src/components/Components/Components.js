@@ -1,5 +1,5 @@
 import React from "react"
-import './classComponents.css'
+import './Components.css'
 import FunctionComponent from './FunctionComponent/FunctionComponent'
 
 export default class Classcomponent extends React.Component{
