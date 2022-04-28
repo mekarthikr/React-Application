@@ -16,6 +16,7 @@ input[type="text"]
 {
     width:60%;
     height: 30px;
+    font-size: 30px;
 }
 .todo-submit{
     width: 18.1%;
@@ -30,9 +31,12 @@ input[type="text"]
 
 }
 li{
-    list-style-type:none;
+    list-style-type:circle;
     margin:0 10%
 }
 h1{
     text-align: center;
 }
+/* p{
+    display: inline;
+} */

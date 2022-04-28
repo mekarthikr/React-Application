@@ -58,7 +58,7 @@ export default class Samplecomponents extends React.Component {
         const element = array.map((elem, index) => {
             return (
                 <li className="display-inline" key={index} >
-                    <div><p>{this.state.element[index]}</p><button className="button-delete" key={index} onClick={() => this.ListDelete(index)}>delete </button> <button className="button-edit"  onClick={() => this.ListEdit(index)}>edit </button></div>
+                    <div><p>{this.state.element[index]} </p><button className="button-delete" key={index} onClick={() => this.ListDelete(index)}>delete </button> <button className="button-edit"  onClick={() => this.ListEdit(index)}>edit </button></div>
                 </li>
 
             )
