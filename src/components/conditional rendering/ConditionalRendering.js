@@ -1,5 +1,4 @@
 import React from "react";
-import './ConditionalRendering.css'
 
 export default class ConditionalRendering extends React.Component
 {

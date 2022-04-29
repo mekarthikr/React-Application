@@ -1,5 +1,4 @@
 import React from "react";
-import './Forms.css'
 
 export default class Forms extends React.Component
 {

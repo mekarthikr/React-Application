@@ -1,5 +1,4 @@
 import React from "react";
-import './ListAndKeys.css'
 
 export default class ListAndKeys extends React.Component
 {    

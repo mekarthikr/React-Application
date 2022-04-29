@@ -1,5 +1,4 @@
 import React from "react";
-import './HandlingEvents.css'
 
 export default class Handlingevents extends React.Component
 {
