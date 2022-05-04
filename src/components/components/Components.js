@@ -1,4 +1,5 @@
 import React from "react"
+import { useNavigate } from "react-router-dom"
 import './Components.css'
 import FunctionComponent from './FunctionComponent/FunctionComponent'
 
@@ -14,6 +15,7 @@ export default class Classcomponent extends React.Component{
         <FunctionComponent/>
         <h3>Created by {this.props.UserName}</h3>
         <a href="todo" >todo</a>
+        <input type="button" value="My Button" />
         </div>)
     }
 }

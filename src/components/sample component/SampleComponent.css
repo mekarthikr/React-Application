@@ -20,7 +20,7 @@ input[type="text"]
 }
 .todo-submit{
     width: 18.1%;
-    height: 30xp;
+    /* height: 30xp; */
     margin: 10px;
 }
 .button-delete{
