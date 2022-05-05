@@ -9,11 +9,11 @@ export default class Childcomponenta extends Component
     {
         return(
             <div>
-<h2> another method{this.context}</h2>
+{/* <h2> another method{this.context}</h2> */}
 <Childcomponentb/>
             </div>
         
         )
     }
 }
-Childcomponenta.contextType=UserConsumer;
+// Childcomponenta.contextType=UserConsumer;
