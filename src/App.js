@@ -3,16 +3,15 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import Routers from './routers/routers';
-// import { UserProvider } from './components/context/userContext';
-// import Maincomponent from './components/context/maincomponent';
+import PortClick from './components/portal/protalClick';
+
 export default function App() {
-  // const name = "karthik";
-  // const message = "hola"
   return (
     <div className='App'>
           {/* <UserProvider value="karthik">
             <Maincomponent/>
           </UserProvider> */}
+      <PortClick/>
       <BrowserRouter>
        <Routers/>
       </BrowserRouter>
