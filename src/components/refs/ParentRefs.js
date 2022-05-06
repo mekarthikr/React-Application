@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ForwardingRefs from "./ForwardingRefs";
+import FRinput from "./ForwardingRefs";
 
 export default class ParentRefs extends Component
 {
@@ -9,13 +9,13 @@ export default class ParentRefs extends Component
         this.inputRef=React.createRef()
         }
     clickhandler(){
-        console.log(this.inputRef.current)
+        console.log(this.inputRef.current.value)
     }
     render()
     {
         return(
             <div>
-                <ForwardingRefs ref={this.inputRef} />
+                <FRinput ref={this.inputRef} />
                 <button onClick={()=>this.clickhandler()}>Click</button>
             </div>
             

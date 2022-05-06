@@ -1,18 +1,26 @@
-// import React, { Component } from "react";
+import React, { Component } from "react";
 
-// export default class ForwardingRefs extends Component
+// export default class FRinput extends Component
 // {
-//     constructor(props)
-//     {
-//         super(props)
-//     }
 //     render()
 //     {
-//         // const input=React.forwardRef((props,ref)=>{
-//         //     return(<div><input type="text" ref={ref}/></div>)
-//         // })
-//         return (React.forwardRef((props,ref)=>{
+//         const input=React.forwardRef((props,ref)=>{
 //             return(<div><input type="text" ref={ref}/></div>)
-//     }
+//         })
+//         return (<input/>)
+//     //     return (React.forwardRef((props,ref)=>{
+//     //         return(<div><input type="text" ref={ref}/></div>)
+//     // }
 // }
 // }
+
+const FRinput=React.forwardRef((props,ref)=>{
+    return(
+
+        <div>
+            <input type="text" ref={ref}/>
+        </div>
+    )
+})
+
+export default FRinput
