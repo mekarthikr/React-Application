@@ -21,6 +21,7 @@ export default class PortClick extends Component
     render() {
         return (
             <div>
+                
                 <button onClick={()=>this.displayFunction()} >click</button>
                 {this.state.display?<PortalDemo ></PortalDemo>:null}
 </div>
